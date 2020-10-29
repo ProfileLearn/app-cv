@@ -1,0 +1,57 @@
+.copiable {
+  color: blue;
+}
+.copiable:hover {
+  cursor: pointer;
+}
+
+.copiar {
+  color: green;
+}
+
+p,
+li {
+  margin: 0;
+  line-height: 2;
+}
+
+.experiencia-laboral {
+  border: 3px solid black;
+  background-color: lightblue;
+}
+
+#btn {
+  display: flex;
+  margin-right: 1em;
+  padding-top: 12em;
+}
+
+#main {
+  display: grid;
+  grid-template-columns: 20% 80%;
+  grid-template-rows: auto;
+  grid-template-areas: "#btn #institucion";
+}
+
+.contenedor {
+  display: grid;
+  grid-template-columns: 10fr 1fr;
+  grid-template-rows: auto;
+  grid-template-areas: ".contenido .copiarContenido";
+}
+
+.contenido {
+  border: 2px solid black;
+  margin: 3px;
+  padding: 3px;
+}
+
+.copiarContenido {
+  width: 100px;
+  border: 2px solid black;
+  background-color: lightskyblue;
+}
+
+.copiarContenido:hover {
+  background-color: gray;
+}
