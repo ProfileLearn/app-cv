@@ -10,7 +10,7 @@ export const Req = (props) => {
     // this useEffect will run once
     // similar to componentDidMount()
     useEffect(() => {
-        fetch("http://127.0.0.1:8887/objetosArr.json")
+        fetch("https://raw.githubusercontent.com/ProfileLearn/dataForTest/main/objetosArr.json")
             .then(res => res.json())
             .then(
                 (result) => {
