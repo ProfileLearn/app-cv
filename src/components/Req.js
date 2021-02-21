@@ -33,7 +33,7 @@ export const Req = (props) => {
         return <div>Loading...</div>;
     } else {
         return (
-            <Institucion experiencia={items} onClick={props.onClick} />
+             />
         )
     }
 }

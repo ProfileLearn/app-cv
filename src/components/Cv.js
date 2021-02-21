@@ -1,6 +1,5 @@
 import React, { useState } from "react";
-import { CopyToClipboard } from "react-copy-to-clipboard";
-import {Req} from "./Req"
+
 
 // COMPONENTE CON ESTADO PRINCIPAL
 
@@ -53,6 +52,7 @@ export function Cv() {
     }
 
     // MAJEADOR DE CLICKS
+    
 
     function handleClick(e) {
         console.log(value);
@@ -61,10 +61,7 @@ export function Cv() {
     }
     return (
         <div id="main">
-            <CopyToClipboard text={value}>
-                <button id="btn">Haga Click Para COPIAR</button>
-            </CopyToClipboard>
-            <Req onClick={handleClick} />
+
         </div>
     );
 }
