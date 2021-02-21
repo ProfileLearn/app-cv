@@ -1,9 +1,12 @@
 import './App.css';
-import {Cv} from './components/Cv.js';
+import req from "./components/req.js"
+
 
 function App() {
+  const request = req("https://raw.githubusercontent.com/ProfileLearn/dataForTest/main/objetosArr.json");
+  request.then(e=>console.log(e))
   return (
-    <Cv />
+    <p>hola munsd</p>
   );
 }
 
